@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="zones" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="zones">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="areakey" type="xs:string" minOccurs="0" />
+              <xs:element name="zonei" type="xs:int" minOccurs="0" />
+              <xs:element name="lat" type="xs:float" minOccurs="0" />
+              <xs:element name="lon" type="xs:float" minOccurs="0" />
+              <xs:element name="osgb36_east" type="xs:float" minOccurs="0" />
+              <xs:element name="osgb36_north" type="xs:float" minOccurs="0" />
+              <xs:element name="area" type="xs:float" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
